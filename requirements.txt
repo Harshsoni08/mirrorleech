@@ -18,7 +18,7 @@ pillow
 psutil
 psycopg2-binary
 pybase64
-program==1.4.16
+program
 python-dotenv
 python-magic
 python-telegram-bot

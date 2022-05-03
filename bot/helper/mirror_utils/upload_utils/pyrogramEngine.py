@@ -63,7 +63,10 @@ class TgUploader:
 
     def __upload_file(self, up_path, file_, dirpath):
         if CUSTOM_FILENAME is not None:
-            cap_mono = f"{CUSTOM_FILENAME} <b>{file_} /n/n Join: @R_Mvzz /n/n Backup: @REQUEST_MOvizz</br></b>"
+            cap_mono = f"{CUSTOM_FILENAME} <b>{file_}
+
+Join: @R_Mvzz 
+Backup: @REQUEST_MOvizz</b>"
             file_ = f"{CUSTOM_FILENAME} {file_}"
             new_path = ospath.join(dirpath, file_)
             osrename(up_path, new_path)
